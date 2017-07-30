@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>64d80703-5653-44a0-8c44-b554036de03c</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SharedSample</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ISamples.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SampleConfiguration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SamplesModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scenarios\Animate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scenarios\Camera.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scenarios\DrawPrimitive.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scenarios\Gradient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scenarios\HalloWorld.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scenarios\PointerInputHandling.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scenarios\WorkWithImages.cs" />
+  </ItemGroup>
+</Project>
